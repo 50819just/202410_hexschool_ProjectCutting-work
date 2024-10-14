@@ -36,9 +36,11 @@ a:active {
 .fs-24 {
     font-size: 24px;
 }
+
 .fs-28 {
     font-size: 28px;
 }
+
 .fs-32 {
     font-size: 32px;
 }
@@ -101,7 +103,8 @@ a:active {
 .Primary-Default-FAD344 {
     color: #FAD344;
 }
-.BK-Primary-Default-FAD344{
+
+.BK-Primary-Default-FAD344 {
     background-color: #FAD344;
 }
 
@@ -171,8 +174,9 @@ a:active {
 .White {
     color: #FFFFFF;
 }
+
 .BK-White {
-  background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 /* m-d */
@@ -311,65 +315,91 @@ img {
     width: 1094px;
 }
 
-.product-page_bt{
+.product-page_bt {
     width: 20px;
     height: 20px;
     border-radius: 100px;
 }
-.Product_ShopCar{
+
+.Product_ShopCar {
     border: 1px solid var(--White, #FFF);
     border-radius: 8px;
     padding: 12px 20px;
     background-color: #161B26;
 }
-.product-pageButton_Num{
+
+.product-pageButton_Num {
     margin-bottom: 120px;
 }
-.product-AllImg-icon{
+
+.product-AllImg-icon {
     background-image: url(./img/product-img-icon.png);
     background-position: center;
     background-repeat: no-repeat;
     height: 792px;
     width: 13px;
 }
-.product-AllImg-IMG-1{
+
+.product-AllImg-IMG-1 {
     background-image: url(./img/正面.png);
     background-position: center;
     background-repeat: no-repeat;
     height: 380px;
     max-width: 1000px;
 }
-.product-AllImg-IMG-2{
+
+.product-AllImg-IMG-2 {
     background-image: url(./img/側面.png);
     background-position: center;
     background-repeat: no-repeat;
     height: 32px;
     width: 1000px;
 }
-.product-AllImg-IMG-3{
+
+.product-AllImg-IMG-3 {
     background-image: url(./img/背面.png);
     background-position: center;
     background-repeat: no-repeat;
     height: 380px;
     width: 1000px;
 }
-.product-AllImg-Font{
+
+.product-AllImg-Font {
     margin-bottom: 128px;
 }
 
 /* product-format 商品規格 */
-.product-format{
+.product-format {
     padding: 28px 120px 80px 120px;
     align-items: center;
 
 }
-.product-format-title{
+
+.product-format-title {
     border-bottom: 1px solid var(--black-400, #9D9D9D);
     margin-bottom: 40px;
 }
 
-.product-format{
+.product-format {
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.10);
- 
+
+}
+
+.product-tableTitle {
+    background: rgba(255, 255, 255, 0.10);
+}
+.product-table-TOPleft{
+    border: 1px solid #858585;
+    border-radius: 10px 0 0 0;
+    background-color: rgba(255, 255, 255, 0.10); 
+    padding: 16px 12px;
+}
+
+.product-table-nomal{
+    background-color: rgba(255, 255, 255, 0.10);
+    border-top: 1px solid #858585;
+    border-left: 1px solid #858585;
+    border-right: 1px solid #858585;
+    padding: 16px 12px;
 }
